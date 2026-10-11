@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en-GB" data-theme="dark">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Puddledeep Games — Small puddle. Deep worlds.</title><meta name="description" content="A little strange. A lot to discover. Meet Puddledeep Games: Project Sprawl is in development, with Project Crawl and Project Brawl planned for the future."><meta name="theme-color" content="#120f1c">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rootmu.github.io/puddledeep-games/">
+  <link rel="canonical" href="https://rootmu.github.io/puddledeep-games/">
+  <meta property="og:title" content="Puddledeep Games — Small puddle. Deep worlds.">
+  <meta property="og:description" content="A little strange. A lot to discover. Meet our games: Project Sprawl, Project Crawl and Project Brawl.">
+  <meta property="og:image" content="https://rootmu.github.io/puddledeep-games/assets/puddledeep-logo.png">
+  <meta property="og:image:alt" content="A tiny octopus waving from a puddle: Puddledeep Games.">
+  <link rel="icon" href="assets/puddledeep-mascot.png"><script src="assets/theme-init.js"></script><link rel="stylesheet" href="assets/variants.css"><link rel="stylesheet" href="assets/moonpool.css"><link rel="stylesheet" href="assets/games.css"><link rel="stylesheet" href="assets/road.css"><script src="assets/variants.js" defer></script><script src="assets/road-geometry.js" defer></script><script src="assets/road.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead shell"><a class="brandmark" href="index.html"><img src="assets/puddledeep-mascot.png" width="64" height="43" alt=""><span>Puddledeep<small>Games</small></span></a><nav class="nav" aria-label="Main navigation"><a href="#games">Our games</a><a class="moon-studio-link" href="#studio">The studio</a><button class="theme-toggle" data-theme-toggle hidden type="button" aria-label="Switch to light mode"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3a9 9 0 1 0 9 9c-5 2-11-4-9-9Z"/></svg><span class="theme-label">Light mode</span></button></nav></header>
+  <main id="main">
+    <section class="moon-intro shell" aria-labelledby="intro-title"><p class="eyebrow">Independent games. Unexpected depths.</p><h1 id="intro-title">A little strange.<br><em>A lot to discover.</em></h1><p class="intro-copy">For anyone who’s ever looked into a puddle<br>and wondered how far down it goes.</p><a class="pill arrow-link" href="#games">See what’s below <span class="arrow" aria-hidden="true">↓</span></a><div class="moon-art"><span class="ring" aria-hidden="true"></span><span class="ring r2" aria-hidden="true"></span><span class="ring r3" aria-hidden="true"></span><span class="star s1" aria-hidden="true">✦</span><span class="star s2" aria-hidden="true">✦</span><span class="star s3" aria-hidden="true">✧</span><img src="assets/puddledeep-mascot.png" width="1536" height="1024" alt="A tiny octopus peeking out of a puddle." fetchpriority="high"></div><p class="art-caption">small puddle, deep worlds</p></section>
+    <div class="moon-divider shell meta"><span>A studio with a curious streak</span><span>Take the other path ↘</span></div>
+    <section id="games" class="moon-games shell" aria-labelledby="games-title">
+      <div class="games-heading">
+        <div><p class="eyebrow">Our games</p><h2 id="games-title">A little further<br>down the road.</h2></div>
+        <p>One adventure taking shape. Two more waiting their turn. Follow the winding path and take a closer look.</p>
+      </div>
+      <div class="road-experience" data-road hidden>
+        <div class="road-toolbar"><p class="eyebrow">The path ahead</p><p>Tap a little window.<br>Find a bigger world.</p></div>
+        <div class="road-viewport" tabindex="0" role="region" aria-label="Explore our games along the winding road" aria-describedby="road-instructions">
+          <div class="road-sky" aria-hidden="true"></div>
+          <p class="road-horizon" aria-hidden="true">Still more to imagine.</p>
+          <svg class="road-drawing" viewBox="0 0 1000 680" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+            <defs><linearGradient id="road-fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="black"/><stop offset=".17" stop-color="black"/><stop offset=".34" stop-color="white"/><stop offset="1" stop-color="white"/></linearGradient><mask id="road-distance-mask"><rect width="1000" height="680" fill="url(#road-fade)"/></mask></defs>
+            <g mask="url(#road-distance-mask)"><g data-road-motes></g><path class="road-fill"/><path class="road-outline"/><path class="road-centre"/><g data-road-pins></g></g>
+          </svg>
+          <div class="road-waypoints"></div>
+        </div>
+        <div class="road-controls"><button type="button" data-road-previous disabled>← The beginning</button><span class="road-distance" data-road-count>01 / 03</span><button type="button" data-road-next>Further down the road →</button></div>
+      </div>
+      <ol class="road-itinerary" aria-label="Go straight to a project" hidden></ol>
+      <p id="road-instructions" class="road-help" hidden>Tap a window to travel towards it and open a preview. Use the controls to wander, or the arrow keys while the road is focused.</p>
+      <p class="sr-only" data-road-announcement aria-live="polite" aria-atomic="true"></p>
+      <div class="games-grid">
+        <article class="game-card" aria-labelledby="sprawl-title">
+          <div class="game-card-art"><img src="assets/sprawl-hero.png" width="1280" height="656" alt="Scarlet autumn trees and stone terraces in Project Sprawl." loading="lazy"><span class="game-status">In development</span></div>
+          <div class="game-card-body">
+            <p class="game-genre">Open-world magic RPG</p><h3 id="sprawl-title">Project Sprawl</h3>
+            <p class="game-card-description">A sprawling, isometric world of magic and possibility. Wander procedural landscapes and become someone shaped by the life you choose to live.</p>
+            <div class="game-card-footer"><a class="arrow-link" href="https://rootmu.github.io/sprawl-site/">Explore Project Sprawl <span class="arrow" aria-hidden="true">↗</span></a></div>
+          </div>
+        </article>
+        <article class="game-card game-card--planned" aria-labelledby="crawl-title">
+          <div class="game-card-art"><img src="assets/project-crawl-concept.png" width="1536" height="1024" alt="Concept art: a lone adventurer with a lantern above a stairway descending into an ancient dungeon." loading="lazy"><span class="game-status">Planned</span><span class="concept-label">Concept artwork</span></div>
+          <div class="game-card-body">
+            <p class="game-genre">Dungeon diving</p><h3 id="crawl-title">Project Crawl</h3>
+            <p class="game-card-description">Down into the dark, and deeper into the unknown. A dungeon-diving adventure for those who always wonder what’s on the next level.</p>
+            <div class="game-card-footer">A little further down the road.</div>
+          </div>
+        </article>
+        <article class="game-card game-card--planned" aria-labelledby="brawl-title">
+          <div class="game-card-art"><img src="assets/project-brawl-lowpoly-concept.png" width="1536" height="1024" alt="Exploratory concept art: two squat, faceted bean-shaped fighters, one mint and one coral, facing off in a purple low-poly arena." loading="lazy"><span class="game-status">Planned</span><span class="concept-label">Concept artwork</span></div>
+          <div class="game-card-body">
+            <p class="game-genre">2D fighting</p><h3 id="brawl-title">Project Brawl</h3>
+            <p class="game-card-description">Step up, square off, find your opening. A playful 2D fighting game with squat little fighters and the pull of just one more round.</p>
+            <div class="game-card-footer">A little further down the road.</div>
+          </div>
+        </article>
+      </div>
+      <p class="games-note">Crawl and Brawl are planned future projects. For now, our focus is on bringing Sprawl to life.</p>
+    </section>
+    <dialog id="game-preview" class="road-modal" aria-labelledby="preview-title" aria-describedby="preview-description">
+      <div class="road-modal-image"><img data-preview-image src="assets/sprawl-hero.png" width="1280" height="656" alt=""><span class="road-modal-caption" data-preview-caption>A glimpse into Project Sprawl</span><button type="button" class="road-close" data-preview-close aria-label="Close game preview" autofocus>×</button></div>
+      <div class="road-modal-body">
+        <div class="road-modal-head"><div><p class="eyebrow" data-preview-genre>Open-world magic RPG</p><h3 id="preview-title">Project Sprawl</h3></div><span class="road-modal-status" data-preview-status>In development</span></div>
+        <p id="preview-description" class="road-modal-description" data-preview-description></p>
+        <p class="road-modal-planned" data-preview-planned hidden></p>
+        <div class="road-modal-actions"><a class="pill road-modal-link" data-preview-link hidden>Visit the game website ↗</a><button class="road-modal-back" type="button" data-preview-back hidden>Back to the road</button><button type="button" class="road-modal-next" data-preview-next>Further down the road →</button></div>
+      </div>
+    </dialog>
+    <section id="studio" class="moon-about" aria-labelledby="studio-title"><div class="shell about-grid"><div><p class="eyebrow">Hello from the shallows</p><h2 id="studio-title">We like our games curious,<br>and our worlds a little deep.</h2><div class="studio-signoff"><img src="assets/puddledeep-mascot.png" width="78" height="52" alt=""><p>Puddledeep Games<small>An independent studio by Matthew Howells</small></p></div></div><div><p>There’s a reason for the tiny octopus. A small puddle can hold something much bigger than you expect. We’re making games with that same sense of possibility.</p><a class="rule-link arrow-link" href="https://rootmu.github.io/sprawl-site/blog/"><span>Notes from the deep<small>Follow the making of Project Sprawl</small></span><span class="arrow" aria-hidden="true">↗</span></a></div></div></section>
+  </main>
+  <footer class="moon-footer shell"><div class="footer-row"><span>© 2026 Puddledeep Games</span><span>There’s more under the surface.</span><a href="#main">Back to the shallows ↑</a></div></footer>
+</body></html>
